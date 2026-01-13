@@ -1,0 +1,14 @@
+{
+  "name": "Dog-robot-Dante Devcontainer",
+  "image": "mcr.microsoft.com/devcontainers/python:0-3.11",
+  "features": {},
+  "postCreateCommand": "pip install -e python_ai && pip install -r python_ai/requirements.txt || true",
+  "forwardPorts": [],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  }
+}
