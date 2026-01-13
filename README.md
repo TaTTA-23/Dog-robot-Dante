@@ -1,4 +1,7 @@
+
 # Dog-robot-Dante
+
+![CI](https://github.com/TaTTA-23/Dog-robot-Dante/actions/workflows/ci.yml/badge.svg)
 
 Este repositório contém esqueleto inicial para o projeto "Dog-robot Dante".
 
