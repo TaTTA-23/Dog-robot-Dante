@@ -2,7 +2,7 @@
 
 Este repositório contém esqueleto inicial para o projeto "Dog-robot Dante".
 
-Conteúdo criado automaticamente:
+Conteúdo criado:
 - `ros2_ws/` : workspace ROS2 com pacote mínimo `dante_bringup` (node stub e launch)
 - `python_ai/` : pacote Python para prototipagem de IA com testes (pytest)
 - `.devcontainer/` : configuração de devcontainer para Codespaces/VS Code
