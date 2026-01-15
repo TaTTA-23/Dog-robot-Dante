@@ -161,8 +161,7 @@ class LegKinematics:
         x = (self.l2 * math.sin(angles.femur) + 
              self.l3 * math.sin(angles.femur + angles.tibia))
         
-        y = (self.l1 + 
-             self.l2 * math.cos(angles.femur) * math.sin(angles.coxa) +
+        y = (self.l2 * math.cos(angles.femur) * math.sin(angles.coxa) +
              self.l3 * math.cos(angles.femur + angles.tibia) * math.sin(angles.coxa))
         
         z = (self.l2 * math.cos(angles.femur) * math.cos(angles.coxa) +
