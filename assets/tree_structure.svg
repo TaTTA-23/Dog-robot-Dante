@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Estrutura de pastas do projeto Dog-robot-Dante" style="background:#ffffff;font-family:Inter, Roboto, sans-serif">
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <text x="56" y="56" font-size="22" fill="#0b1220" font-weight="700">Dog-robot-Dante — estrutura de pastas (visão geral)</text>
+
+  <g transform="translate(64,100)" font-size="16" fill="#0b1220">
+    <!-- root -->
+    <g>
+      <rect x="0" y="0" width="440" height="72" rx="8" fill="#f0f6fb" stroke="#d6e7fb"/>
+      <text x="20" y="42" font-weight="700">/ (repo root)</text>
+      <text x="220" y="42" fill="#586f86">README.md • CHANGELOG.md</text>
+    </g>
+
+    <!-- first level -->
+    <g transform="translate(0,100)">
+      <g>
+        <rect x="0" y="0" width="320" height="60" rx="8" fill="#fff8e6" stroke="#fde8b7"/>
+        <text x="16" y="36" font-weight="700">ros2_ws/</text>
+        <text x="140" y="36" fill="#7a5a00">(ROS2 bringup)</text>
+      </g>
+
+      <g transform="translate(360,0)">
+        <rect x="0" y="0" width="320" height="60" rx="8" fill="#eef8ee" stroke="#cfeccf"/>
+        <text x="16" y="36" font-weight="700">python_ai/</text>
+        <text x="140" y="36" fill="#246a33">(vision prototyping)</text>
+      </g>
+
+      <g transform="translate(0,100)">
+        <rect x="0" y="0" width="320" height="60" rx="8" fill="#f3eef8" stroke="#e3d7f4"/>
+        <text x="16" y="36" font-weight="700">src/</text>
+        <text x="140" y="36" fill="#5a3b7a">(Perception, Locomotion, Manipulation, Brain)</text>
+      </g>
+
+      <g transform="translate(360,100)">
+        <rect x="0" y="0" width="320" height="60" rx="8" fill="#eef7ff" stroke="#d7ebff"/>
+        <text x="16" y="36" font-weight="700">.devcontainer/</text>
+        <text x="140" y="36" fill="#1f5fa8">(devcontainer.json)</text>
+      </g>
+
+      <g transform="translate(0,200)">
+        <rect x="0" y="0" width="320" height="60" rx="8" fill="#fff6f6" stroke="#ffdede"/>
+        <text x="16" y="36" font-weight="700">.github/</text>
+        <text x="140" y="36" fill="#8a2b2b">(workflows/ci.yml)</text>
+      </g>
+
+      <g transform="translate(360,200)">
+        <rect x="0" y="0" width="320" height="60" rx="8" fill="#f7fff4" stroke="#dfffd7"/>
+        <text x="16" y="36" font-weight="700">tests/</text>
+        <text x="140" y="36" fill="#0b6b2e">(pytest tests)</text>
+      </g>
+    </g>
+
+    <!-- small legend -->
+    <g transform="translate(760,0)">
+      <text x="0" y="0" font-size="14" fill="#333" font-weight="700">Legendas</text>
+      <text x="0" y="28" font-size="13" fill="#556">• ros2_ws — bringup + launch</text>
+      <text x="0" y="48" font-size="13" fill="#556">• python_ai — protótipos de visão + tests</text>
+      <text x="0" y="68" font-size="13" fill="#556">• src — skeleton modular (POO)</text>
+      <text x="0" y="88" font-size="13" fill="#556">• .devcontainer — reproducible env</text>
+      <text x="0" y="108" font-size="13" fill="#556">• .github — CI (pytest jobs)</text>
+    </g>
+  </g>
+
+  <text x="64" y="580" font-size="12" fill="#6b7280">Gerado a partir: https://github.com/TaTTA-23/Dog-robot-Dante — branch: feat/scaffold-ros2-pythonai-devcontainer</text>
+</svg>

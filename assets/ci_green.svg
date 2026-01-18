@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="CI verde - GitHub Actions" style="background:#0b1020;font-family:Inter, Roboto, sans-serif">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#0f1724"/>
+      <stop offset="1" stop-color="#0b1220"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)" rx="8"/>
+
+  <!-- Header -->
+  <rect x="40" y="36" width="1120" height="72" rx="8" fill="#0f1724" opacity="0.9"/>
+  <text x="64" y="82" font-size="28" fill="#ffffff" font-weight="700">Dog-robot-Dante — CI status</text>
+
+  <!-- Badge -->
+  <g transform="translate(920,50)">
+    <rect x="0" y="0" width="200" height="40" rx="8" fill="#0b1220" opacity="0.95"/>
+    <rect x="8" y="6" width="28" height="28" rx="6" fill="#06d6a0"/>
+    <path d="M16 10 L20 16 L28 8" stroke="#042a1a" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="44" y="27" fill="#ffffff" font-size="16" font-weight="700">CI: success</text>
+  </g>
+
+  <!-- Terminal window -->
+  <g transform="translate(64,128)">
+    <rect width="1072" height="430" rx="8" fill="#011221" stroke="#0e2a3a" stroke-width="1"/>
+
+    <!-- faux terminal header dots -->
+    <circle cx="22" cy="22" r="6" fill="#ff5f56"/>
+    <circle cx="50" cy="22" r="6" fill="#ffbd2e"/>
+    <circle cx="78" cy="22" r="6" fill="#27c93f"/>
+
+    <!-- log lines -->
+    <g font-family="monospace" font-size="14" fill="#9ad6ff" transform="translate(24,52)">
+      <text x="0" y="0" fill="#ffffff" font-weight="700">Run: Test (pytest) (3.11) — completed</text>
+      <text x="0" y="26">Checking out repo: TaTTA-23/Dog-robot-Dante</text>
+      <text x="0" y="52">Installing dependencies...</text>
+      <text x="0" y="78">- pip install -r python_ai/requirements.txt</text>
+      <text x="0" y="104">- pip install -e python_ai</text>
+      <text x="0" y="130" fill="#06d6a0" font-weight="700">✔ 8 passed in 0.10s</text>
+      <text x="0" y="156" fill="#9ad6ff">Workflow: CI — python 3.11 / 3.12</text>
+
+      <text x="0" y="200" fill="#cdefff">(Logs truncated for brevity)</text>
+    </g>
+  </g>
+
+  <!-- Footer note -->
+  <text x="64" y="590" font-size="12" fill="#7aaed8">Repository: https://github.com/TaTTA-23/Dog-robot-Dante — branch: feat/scaffold-ros2-pythonai-devcontainer</text>
+</svg>
