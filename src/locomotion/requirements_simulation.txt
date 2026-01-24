@@ -1,0 +1,4 @@
+# Simulation dependencies
+pybullet>=3.0.0
+numpy>=1.20.0
+
